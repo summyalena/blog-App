@@ -1,7 +1,5 @@
 # Blog App
 
-Blog App
-
 # Description the project.
 
 Blog app is a website that allows users to create, edit, comment and delete posts, keeping data in a database. This project implements both authorization and authentication in order to provide extended functionality to logged in and authorized users.
