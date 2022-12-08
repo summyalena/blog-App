@@ -27,6 +27,7 @@ RSpec.describe "Posts", type: :request do
     end
     it "response body includes placeholer" do
       expect(response.body).to include "Find me in app/views/posts/index.html.erb"
+    end
   end
 
   describe "GET /show" do
