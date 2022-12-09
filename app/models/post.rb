@@ -1,6 +1,5 @@
 class Post < ActiveRecord::Base
-  belongs_to :author, foreign_key: :author_id, primary_key: :uid
-  class_name :User
+  belongs_to :User, foreign_key: :author_id, primary_key: :uid
   has_many :comments
   has_many :likes
 
