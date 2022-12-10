@@ -1,27 +1,27 @@
 Table of Contents
-📖 About the Project
-🛠 Built With
-Tech Stack
-Key Features
-🚀 Live Demo
-💻 Getting Started
-Setup
-Prerequisites
-Install
-Usage
-Run tests
-Deployment
-👥 Authors
-🔭 Future Features
-🤝 Contributing
-⭐️ Show your support
-🙏 Acknowledgements
-❓ FAQ
-📝 License
-📖 Blog_App
+- 📖 About the Project
+- 🛠 Built With
+- Tech Stack
+- Key Features
+- 🚀 Live Demo
+- 💻 Getting Started
+- Setup
+- Prerequisites
+- Install
+- Usage
+- Run tests
+- Deployment
+- 👥 Authors
+- 🔭 Future Features
+- 🤝 Contributing
+- ⭐️ Show your support
+- 🙏 Acknowledgements
+- ❓ FAQ
+- 📝 License
+- 📖 Blog_App
 
 
-** Blog_App is a website that allows users to create, edit, comment and delete posts, keeping data in a database. This project implements both authorization and authentication in order to provide extended functionality to logged in and authorized users.
+### Blog_App is a website that allows users to create, edit, comment and delete posts, keeping data in a database. This project implements both authorization and authentication in order to provide extended functionality to logged in and authorized users.
 
 ## Built With
 - It was built with Ruby on Rails Framework
