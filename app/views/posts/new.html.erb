@@ -1,9 +1,7 @@
-<div>
-    <h1>Create post</h1>
-
-    <%= form_with model: @post, url: user_posts_path, scope: :post do |form| %>  
-        <%= form.text_field :title, required: true %>
-        <%= form.text_area :text, placeholder: "Write something here.....", rows: 10, required: true %>
-    <%= form.submit "Post" %>
-    <% end %> 
-</div>
+<%= form_with model: @post, url: user_posts_path, class: "add-post" do |form| %>
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+    <%= form.label :Write_your_post %>
+    <%= form.text_area :text%>
+    <%= form.submit "Create post", disable_with: 'Submiting...', class: "btn" %>
+  <% end %>
