@@ -1,18 +1,12 @@
-<div>
-  <div>
-    <img src=<%=  @users.photo %>/>
-    <p> <%= @users.name %> </p>  
-  </div>
+<section >
+  <%= render'partials/user', user: @user %>
+    <% @posts.each do |post| %>
+      <a href="/users/<%= @user.id %>/posts/<%= post.id %>">
+        <ul>
+          <%= render 'partials/post', post: post %>
+        </ul>
+      </a>
+    <% end %>
+  <button type='button'>Pagination</button>
+</section>
 
-  <% @users.posts.each do |post| %>
-    <div>
-      <h3><%= post.id %></h3>
-      <p> <%= post.text %></p>
-      <small>Comments: <%=post.comments_counter %>, Likes: <%=post.likes_counter%> </small>
-      <% post.recent_comments.each do |comment|%>
-        <h3><%= comment.user.name %><%= comment.text %></h3>
-      <% end %>
-    </div>
-
-    <button>pagination</button>
-</div>
