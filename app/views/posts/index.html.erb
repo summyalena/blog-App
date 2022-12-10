@@ -1,2 +1,12 @@
-<h1>Posts#index</h1>
-<p>Find me in app/views/posts/index.html.erb</p>
+<section >
+  <%= render'partials/user', user: @user %>
+    <% @posts.each do |post| %>
+      <a href="/users/<%= @user.id %>/posts/<%= post.id %>">
+        <ul>
+          <%= render 'partials/post', post: post %>
+        </ul>
+      </a>
+    <% end %>
+  <button type='button'>Pagination</button>
+</section>
+

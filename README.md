@@ -1,10 +1,30 @@
-# Blog App
+Table of Contents
+- 📖 About the Project
+- 🛠 Built With
+- Tech Stack
+- Key Features
+- 🚀 Live Demo
+- 💻 Getting Started
+- Setup
+- Prerequisites
+- Install
+- Usage
+- Run tests
+- Deployment
+- 👥 Authors
+- 🔭 Future Features
+- 🤝 Contributing
+- ⭐️ Show your support
+- 🙏 Acknowledgements
+- ❓ FAQ
+- 📝 License
+- 📖 Blog_App
 
-# Description the project.
 
-Blog app is a website that allows users to create, edit, comment and delete posts, keeping data in a database. This project implements both authorization and authentication in order to provide extended functionality to logged in and authorized users.
+### Blog_App is a website that allows users to create, edit, comment and delete posts, keeping data in a database. This project implements both authorization and authentication in order to provide extended functionality to logged in and authorized users.
 
 ## Built With
+- It was built with Ruby on Rails Framework
 
 - Languages:
   _**Ruby**_
@@ -12,7 +32,14 @@ Blog app is a website that allows users to create, edit, comment and delete post
 - Frameworks: _**Ruby On Rails**_
 - Technologies used: _**Visual Studio Code**_
 
+## Key feature: 
+It emphasizes on being able to create a simple blog 
+App using Ruby on rails framework
+
+🚀 Live Demo
+- Nill
 ### Requirements
+
 
 In order to work on this project, you need to have the following dependencies installed:
 
@@ -29,7 +56,7 @@ Once you have the project correctly set up, run
 $ bin/rails db:setup
 ```
 
-From Duane David to Everyone 09:56 PM
+From Alena Okolike to Everyone 09:56 PM
 ## Author
 
 👤 **Okolike Assumpta**
@@ -38,6 +65,10 @@ From Duane David to Everyone 09:56 PM
 - Twitter: [@twitterhandle](https://twitter.com/AOkolike)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/okolike-assumpta/)
 
+
+🔭 Future Features
+- Add forms to the blog_App.
+- Implement a full stack project with ROR
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -56,10 +87,15 @@ Give a ⭐ if you like this project!
 - Inspiration
 - etc
 
+❓ FAQ
+Add at least 2 questions new developers would ask when they decide to use your project.
+- How is learning a new language like
+- It is interesting, challenging but good.
+
+
+(back to top)
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
 
-
-
-
+NOTE: we recommend using the MIT license - you can set it up quickly by using templates available on GitHub. You can also use any other license if you wish.
