@@ -1,10 +1,15 @@
 class PostsController < ApplicationController
   def index
-    @users = User.find(params[:user_id].to_i)
+    @user = User.find(params[:user_id])
+    @posts = @user.posts
   end
 
   def show
-    @post = Post.joins(:user).where(user: { id: params[:user_id] }).find(params[:id])
-    @comments = @post.comments
+    @user = User.find(params[:user_id])
+    @post = @user.posts.find(params[:id])
   end
 end
+
+third_post = Post.create(user: first_user, title: 'keeper', text: 'This is my third post')
+
+Comment.create(post: third_post, user: first_user, text: 'i love you!')

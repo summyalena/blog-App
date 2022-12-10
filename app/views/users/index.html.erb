@@ -1,11 +1,10 @@
-<% @users.each do |user| %>
-    <div style="border:2px;
-     display:flex;
-      justify-content:space-between; 
-      padding:15px; 
-      margin:10px;">
-     <%= image_tag user.photo %>
-     <h2><%=user.name%></h2>
-     <p>Number of posts <%= user.post_counter %></p>
-    </div>
-    <% end %>
+<h1> List all users </h1>
+<div>
+   <ul class='list'>
+      <% @users.each do |user| %>
+        <a href='/users/<%= user.id %>'>
+         <%= render 'partials/user', user: user %>
+         </a>
+      <% end %>
+   </ul>
+</div>
