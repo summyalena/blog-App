@@ -8,4 +8,3 @@ class Comment < ActiveRecord::Base
     post.increment!(:comments_counter)
   end
 end
-

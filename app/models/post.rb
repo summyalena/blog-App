@@ -18,4 +18,3 @@ class Post < ActiveRecord::Base
     comments.last(5)
   end
 end
-

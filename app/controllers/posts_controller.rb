@@ -12,5 +12,4 @@ end
 
 third_post = Post.create(user: first_user, title: 'keeper', text: 'This is my third post')
 
-Comment.create(post: third_post, user: first_user, text: 'i love you!' )
-
+Comment.create(post: third_post, user: first_user, text: 'i love you!')

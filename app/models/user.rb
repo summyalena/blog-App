@@ -9,4 +9,3 @@ class User < ActiveRecord::Base
     posts.last(3)
   end
 end
-
