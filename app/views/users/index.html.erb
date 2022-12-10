@@ -2,7 +2,9 @@
 <div>
    <ul class='list'>
       <% @users.each do |user| %>
+        <a href='/users/<%= user.id %>'>
          <%= render 'partials/user', user: user %>
+         </a>
       <% end %>
    </ul>
 </div>
