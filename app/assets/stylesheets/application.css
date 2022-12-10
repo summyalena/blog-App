@@ -74,6 +74,151 @@ section {
   padding: 1rem;
 }
 
+.user {
+  display: flex;
+  margin: 30px 0;
+  color: #000;
+}
+
+.user-posts,
+.comments,
+.post {
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+}
+
+.user-posts {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.user-posts:hover {
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0, rgba(27, 31, 35, 0.15) 0 0 0 1px;
+}
+
+.posts-amount {
+  align-self: flex-end;
+}
+
+.user-img {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.user-img img {
+  height: 100px;
+  width: auto;
+}
+
+.bio-container {
+  border: 2px solid #000;
+  margin-bottom: 10px;
+}
+
+.bio {
+  margin: 20px 0;
+}
+
+.posts,
+.posts-comments {
+  display: flex;
+  flex-direction: column;
+}
+
+.posts > * {
+  margin-bottom: 10px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+
+.post:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.btn {
+  padding: 8px 15px;
+  align-self: center;
+}
+
+.comments-likes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.post-comments {
+  margin-bottom: 20px;
+}
+
+.comments {
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.post-detail-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.post-detail {
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 10px 10px 0 10px;
+  bottom: 0;
+  width: 100%;
+  background: hsl(0, 0%, 15%);
+  color: hsl(0, 0%, 70%);
+}
+
+.add-comment,
+.add-post {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  width: 60%;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.add-comment textarea,
+.add-post textarea {
+  border: 1px solid #ccc;
+  outline: none;
+  margin: 10px 0;
+  min-height: 150px;
+  padding: 8px 12px;
+}
+
+.add-comment input {
+  width: min-content;
+  align-self: center;
+  padding: 8px 12px;
+}
+
+.add-post input[type=text] {
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 4px 8px;
+  margin-bottom: 10px;
+}
 @media screen and (min-width: 768px) {
   .user {
     gap: 3rem;
