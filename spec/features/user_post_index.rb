@@ -37,6 +37,12 @@ RSpec.describe 'PostIndex', type: :feature do
     it 'displays the post title' do
       expect(page).to have_content(@post.Title)
     end
+    it 'should see users number of posts' do
+      expect(page).to have_content("Number of Posts\n3")
+    end
+    it 'should see post body' do
+      expect(page).to have_content(@post1.text)
+    end
     it 'displays the post comments counter' do
       expect(page).to have_content(@post.comment_counter)
     end
