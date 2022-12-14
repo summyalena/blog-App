@@ -54,3 +54,4 @@ RSpec.describe 'PostIndex', type: :feature do
       expect(page).to have_current_path user_post_path(@user, @post4)
     end
   end
+end
